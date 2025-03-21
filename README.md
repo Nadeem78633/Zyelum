@@ -8,6 +8,7 @@ This project is a simplified homepage inspired by [ofbusiness.com](https://www.o
 ## Live Demo
 You can view the live deployment of this project here:  
 **[Live URL](#)** *https://zyelum.vercel.app/*
+
 **[Live URL](#)** *https://zyelum-git-main-nadeem78633s-projects.vercel.app/*
 
 ---
@@ -17,7 +18,7 @@ You can view the live deployment of this project here:
    - **Hero Section**: Includes a headline, subheading, and a Call-to-Action (CTA) button.
    - **Services/Features Section**: Displays a brief overview of services/features.
    - **Responsive Design**: Works seamlessly on desktops, tablets, and mobiles.
-   - **Interactive Element**: Includes a modal or carousel for user engagement.
+   - **Interactive Element**: I added modal in Searchbar and In subheader wehn hover on Subheader Links Model modal will open.
 
 2. **Architecture Overview**:
    - A simple diagram showing the front-end structure, data flow, and deployment strategy.
