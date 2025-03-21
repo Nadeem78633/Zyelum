@@ -8,6 +8,7 @@ This project is a simplified homepage inspired by [ofbusiness.com](https://www.o
 ## Live Demo
 You can view the live deployment of this project here:  
 **[Live URL](#)** *https://zyelum.vercel.app/*
+**[Live URL](#)** *https://zyelum-git-main-nadeem78633s-projects.vercel.app/*
 
 ---
 
@@ -55,7 +56,8 @@ You can view the live deployment of this project here:
 ## Architecture Overview
 
 ### Diagram
-![Architecture Diagram](#) *(Replace with a link to your architecture diagram)*
+![Architecture Diagram](#) **<img width="1199" alt="Architecture Nadeem" src="https://github.com/user-attachments/assets/8c95046a-b34a-47dc-89a7-34cf00021f88" />
+
 
 ### Explanation
 1. **Front-End**:
