@@ -1,0 +1,98 @@
+/* Wrapper to position card between sections */
+.services-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: #06215d;
+  padding-top: 100px;
+}
+
+/* Floating card */
+.services-floating-card {
+  position: absolute;
+  top: -130px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 100%;
+  border-radius: 16px;
+  background: white;
+  padding: 10px;
+  transition: transform 0.3s;
+  z-index: 10;
+ 
+}
+
+/* Card content container */
+.services-card-content {
+  padding: 20px;
+}
+
+/* Service item styling */
+.service-item {
+  height: 100%;
+ margin-bottom: 40px;
+  position: relative;
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.service-name {
+  font-weight: 600;
+  color: #333;
+margin-bottom: 20px !important;
+}
+
+.service-description {
+  color: #666;
+  font-size: 14px;
+  margin-top: 10px;
+ 
+}
+
+/* Know More container */
+.know-more-container {
+    display: flex;
+  gap: 20px;
+  position: absolute;
+  bottom: 10px;
+  margin-top: 20px !important;
+}
+
+.know-more-text {
+
+  font-weight: 500;
+}
+
+.know-more-arrow {
+  color: #007bff;
+  font-size: 20px;
+ 
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .services-floating-card {
+    top: -120px;
+  }
+
+  .service-icon {
+    font-size: 30px;
+  }
+
+  .service-name {
+    font-size: 16px;
+  }
+
+  .service-description {
+    font-size: 12px;
+  }
+
+  .services-wrapper {
+    padding-top: 400px;
+  }
+}

@@ -1,0 +1,75 @@
+.hero-containers {
+  background-image: url("/src/assets/img/storehouse.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 80vh;
+  padding: 20px;
+  margin-top: 110px;
+}
+
+.grid-content {
+  padding: 20px;
+  color: white;
+}
+
+.b2b {
+  font-weight: 600 !important;
+}
+
+/* Products container */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Product name with icon inside */
+.product-name {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; 
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(10px);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+/* Circular icon inside the product name */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;   
+  height: 20px; 
+  background-color: white;
+  border-radius: 50%;
+  color: #007BFF; 
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Hover effect */
+.product-name:hover {
+  transform: translateY(-5px);
+}
+
+@media (max-width: 768px) {
+  .hero-containers {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+  .b2b {
+    font-size: 40px !important;
+    font-weight: 500 !important;
+  }
+}

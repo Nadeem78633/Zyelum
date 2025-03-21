@@ -1,0 +1,112 @@
+/* Subheader Container */
+.subheader-container {
+  position: sticky; /* Make the subheader sticky */
+  top: 0; /* Stick to the top of the viewport */
+  width: 100%;
+  z-index: 1000; /* Ensure the subheader is above other content */
+  background-color: #12224d; /* Match the background color of the subheader */
+}
+
+.subheaders {
+  background-color: #12224d;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  gap: 50px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent wrapping of links */
+  scrollbar-width: thin; /* For better scrollbar appearance in some browsers */
+  scrollbar-color: #12224d #12224d; /* Custom scrollbar color */
+}
+
+/* Subheader Links */
+.subheader-link {
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  position: relative;
+  padding: 5px 10px;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+/* Fullscreen Modal */
+.modal-fullscreen {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  gap: 50px;
+}
+
+/* Left Column - Main Links */
+.modal-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start; /* Align text to the start (left) */
+}
+
+/* Right Column - Products and City */
+.modal-right {
+  display: flex;
+  gap: 50px;
+}
+
+.products-column,
+.city-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start; /* Align text to the start (left) */
+}
+
+.modal-content a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  text-align: left; /* Ensure text aligns to the left */
+  width: 100%; /* Ensure links take full width of the column */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.modal-content a:hover,
+.modal-content a.active {
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1); /* Transparent blue background */
+  width: 100%; /* Ensure hover/active states take full width */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .subheaders {
+    gap: 20px; /* Reduce gap for smaller screens */
+    padding: 10px;
+  }
+
+  .modal-fullscreen {
+    position: static;
+  }
+
+  .modal-content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .modal-right {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

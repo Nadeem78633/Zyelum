@@ -1,0 +1,103 @@
+/* Wrapper to position card between sections */
+.categories-wrapper {
+ 
+ position: relative;
+  width: 100%;
+  min-height: 100vh; /* Ensure full viewport height */
+background: linear-gradient(to bottom, #e0f7f3, white);
+;
+  padding-top: 100px; 
+  padding-bottom: 100px;
+}
+
+/* Floating card */
+.floating-card {
+  position: absolute;
+  top: -50px; /* Adjust this value to place the card between sections */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 1200px;
+  border-radius: 16px;
+ 
+  background: white;
+  padding: 10px;
+  transition: transform 0.3s;
+  z-index: 10;
+}
+
+
+
+/* Card content container */
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual stat item */
+.stat-item {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+/* Icons */
+.icon {
+  font-size: 40px;
+  color: black;
+}
+.stat{
+  display: flex;
+  flex-direction: column;
+}
+.stat-h6{
+   color: #007bff;
+   font-weight: 600 !important;
+}
+.explore-container{
+ padding-left: 20px;
+  padding-right: 20px;
+}
+.explore{
+  margin-top: 200px;
+ 
+  font-weight: 600 !important;
+}
+.services-explore-container{
+  margin-top: 100px;
+  padding-bottom: 60px;
+  
+}
+/* Responsive design */
+@media (max-width: 768px) {
+  .card-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .floating-card {
+    top: -30px;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
+
+  .stat-number {
+    font-size: 20px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+  }
+  .categories-wrapper {
+ 
+
+  padding-top: 400px; 
+}
+
+}
