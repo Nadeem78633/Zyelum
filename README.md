@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Zyelum Full Stack Developer Mini Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a simplified homepage inspired by [ofbusiness.com](https://www.ofbusiness.com). It demonstrates my full-stack development skills, including front-end design, architecture planning, and deployment. The assignment includes a responsive homepage, an architecture overview, and a live deployment.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Live Demo
+You can view the live deployment of this project here:  
+**[Live URL](#)** *https://zyelum.vercel.app/*
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+1. **Homepage**:
+   - **Hero Section**: Includes a headline, subheading, and a Call-to-Action (CTA) button.
+   - **Services/Features Section**: Displays a brief overview of services/features.
+   - **Responsive Design**: Works seamlessly on desktops, tablets, and mobiles.
+   - **Interactive Element**: Includes a modal or carousel for user engagement.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. **Architecture Overview**:
+   - A simple diagram showing the front-end structure, data flow, and deployment strategy.
+   - A short write-up explaining technology choices and scalability plan.
 
-### `npm test`
+3. **GitHub & Deployment**:
+   - Well-organized code with clear commit messages.
+   - If Backedn build then Deployed using [Vercel/Netlify/Heroku].
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. **Bonus**:
+   - Basic unit tests for components and functions.
+   - CI/CD configuration for automated testing and deployment.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
+- **Front-End**:
+  - ReactJS
+  - HTML, CSS, JavaScript
+  - Material-UI (for styling and components)
+- **Back-End (Architecture Only)**:
+  - Node.js (hypothetical)
+  - Express (hypothetical)
+  - MongoDB/MySQL (hypothetical)
+- **Deployment**:
+  - Vercel/Netlify (front-end)
+  - Heroku (back-end, if implemented)
+- **Testing**:
+  - Jest
+  - React Testing Library
+- **Version Control**:
+  - GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Architecture Overview
 
-### `npm run eject`
+### Diagram
+![Architecture Diagram](#) *(Replace with a link to your architecture diagram)*
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Explanation
+1. **Front-End**:
+   - Built using **ReactJS** for a component-based architecture.
+   - Uses **React Router** for navigation (if applicable).
+   - Styled with **CSS** and **Material-UI** for a modern and responsive design.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Back-End (Hypothetical)**:
+   - If implemented, the back-end would use **Node.js** with **Express** to handle API requests.
+   - Data would be stored in **MongoDB** for scalability.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Deployment**:
+   - Front-end deployed on **Vercel** for fast and scalable hosting.
+   - Back-end deployed on **Heroku** with a **MongoDB Atlas** database.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Scalability Plan**:
+   - Use **caching** (e.g., Redis) to improve performance.
+   - Implement **load balancing** to handle high traffic.
+   - Use **Docker** for containerization to ensure consistency across environments.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+- Node.js (v16 or higher)
+- npm (v8 or higher)
 
-### Code Splitting
+### Steps to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/zyelum-assignment.git
+2.Navigate to the project directory:
+  ```bash
+  cd zyelum-assignment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
