@@ -62,7 +62,7 @@ const SearchBar = () => {
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
             onFocus={handleFocus}
-            slotProps={{
+            InputProps={{
               startAdornment: (
                 <InputAdornment position="start">
                   <SearchIcon sx={{ color: "action.active" }} />
